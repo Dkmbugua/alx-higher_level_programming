@@ -1,6 +1,4 @@
 import random
-number = random.randint(-10, 10)
-import random
 
 number = random.randint(-100, 100)
 
