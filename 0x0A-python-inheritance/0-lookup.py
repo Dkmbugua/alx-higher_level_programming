@@ -1,8 +1,9 @@
+#!/usr/bin/python3
 """
-function lookuo take a single parameter whoe attributes and methods you
-to retrieve
+Contains the lookup function
 """
 
+
 def lookup(obj):
-    """Return the list of availabe attributes and methods of an object"""
+    """returns a list of available attributes and methods of an object"""
     return dir(obj)

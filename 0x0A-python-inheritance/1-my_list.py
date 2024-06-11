@@ -1,4 +1,9 @@
-class Mylist(list):
+#!/usr/bin/python3
+""" My list module """
+
+
+class MyList(list):
+    """ Class that inherits from list """
     def print_sorted(self):
-        """a method uses the sorted function tosort list in ascending order"""
-        print(sorted(list(self)))
+        """ Prints sorted lists """
+        print(sorted(self.copy()))
